@@ -7,6 +7,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
+
 import '../extended_render_paragraph.dart';
 import '../extended_rich_text.dart';
 import '../text_overflow_widget.dart';
@@ -133,7 +134,7 @@ class ExtendedTextSelection extends StatefulWidget {
 }
 
 class ExtendedTextSelectionState extends State<ExtendedTextSelection>
-    with TextEditingActionTarget
+    //  with TextEditingActionTarget
     implements
         ExtendedTextSelectionGestureDetectorBuilderDelegate,
         TextSelectionDelegate,
